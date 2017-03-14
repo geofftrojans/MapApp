@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  <head><title> ADS-B Map </title>
+    <meta name="viewport"
+      content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #mapDiv {
+        height: 400px; width: 100%; }
+    </style>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ4ClMwcXBcfO3_bqQPTvryxi5GZN7g0I">
+    </script>
+    <script src='mapApp.js'></script>
+  </head>
+  <body>
+    <h3>Google Map Test</h3>
+    <div id="mapDiv"></div>
+    <button id="btnTerrain">Terrain</button>
+    <button id="btnRoadmap">Roadmap</button>
+    <button id="btnSatellite">Satellite</button>
+    <button id="btnHybrid">Hybrid</button>
+  </body>
+</html>
